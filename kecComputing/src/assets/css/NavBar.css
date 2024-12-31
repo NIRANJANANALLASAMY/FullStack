@@ -1,6 +1,23 @@
-ul{
-    padding:0;
-    margin: 0;
-    text-decoration: dotted;
-
+ul {
+  display: flex;
+  padding: 0;
+  margin: 0;
+  justify-content: space-evenly;
+  list-style-type: none;
+  background-color: rgb(96, 235, 250);
+  color: aliceblue;
+  padding: 10px;
 }
+
+.link {
+  cursor: pointer;
+  padding: 3px;
+  border-radius: 10px;
+  text-decoration: none;
+  color: aliceblue;
+}
+
+.link:hover {
+    background-color: white;
+    color: rgb(244, 47, 99);
+  }
