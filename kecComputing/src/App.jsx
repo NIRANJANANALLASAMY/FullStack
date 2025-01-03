@@ -8,6 +8,7 @@ import {BrowserRouter,Routes,Route} from 'react-router-dom';
 import UseEffect from "./Components/FunctionalComponents/UseState";
 import UseRef from"./Components/FunctionalComponents/UseRef";
 import UseContext from"./Components/FunctionalComponents/UseContext";
+import UseMemo from "./Components/FunctionalComponents/UseMemo";
 
 function App() {
   return (
@@ -22,6 +23,7 @@ function App() {
           <Route path="/useState" element = {<UseEffect />} />
           <Route path="/useRef" element = {<UseRef />} />
           <Route path="/useContext" element = {<UseContext />} />
+          <Route path="/UseMemo" element={<UseMemo/>}/>
         </Routes>
       </BrowserRouter>
     </div>
