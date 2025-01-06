@@ -13,6 +13,8 @@ var NavBar = () =>{
                     <li><Link to="/UseRef" className='link'>Use Ref</Link></li>
                     <li><Link to="/UseContext" className='link'>Use Context</Link></li>
                     <li><Link to="/UseMemo" className='link'>Use Memo</Link></li>
+                    <li><Link to="/Signup" className='link'>Sign Up</Link></li>
+                    <li><Link to="/Login" className='link'>Login</Link></li>
                 </ul>
             </nav>
         </header>
